@@ -1,9 +1,9 @@
 <?php
 
-use App\Facades\Unleash;
-use App\Providers\UnleashServiceProvider;
 use Illuminate\Support\Facades\Facade;
 use Illuminate\Support\ServiceProvider;
+use UnleashWrapper\Facades\Unleash;
+use UnleashWrapper\Providers\UnleashServiceProvider;
 
 return [
 

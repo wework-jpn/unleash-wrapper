@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Providers;
+namespace UnleashWrapper\Providers;
 
 use Illuminate\Support\ServiceProvider;
 use Unleash\Client\Unleash;

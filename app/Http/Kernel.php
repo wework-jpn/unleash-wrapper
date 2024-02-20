@@ -2,8 +2,8 @@
 
 namespace App\Http;
 
-use App\Http\Middleware\UnleashContextMiddleware;
 use Illuminate\Foundation\Http\Kernel as HttpKernel;
+use UnleashWrapper\Middleware\UnleashContextMiddleware;
 
 class Kernel extends HttpKernel
 {
