@@ -8,7 +8,7 @@
         "php": "^7.4",
         "guzzlehttp/guzzle": "^6.0.0",
         "laravel/framework": "^8.4",
-        "symfony/cache": "^7.0",
+        "symfony/cache": "*",
         "unleash/client": "*"
     },
     "require-dev": {
