@@ -30,6 +30,6 @@ class UnleashServiceProvider extends ServiceProvider
     {
         $this->publishes([
             __DIR__ . '/../../config/unleash.php' => config_path('unleash.php'),
-        ], 'config');
+        ], 'unleash-config');
     }
 }
