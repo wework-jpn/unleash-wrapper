@@ -20,7 +20,7 @@ This Laravel package provides an easy-to-use integration with [Unleash](https://
 You can install the package via composer:
 
 ```bash
-composer require wework/unleash-wrapper
+composer require wework/unleash-wrapper:dev-main
 ```
 
 ### Step 2: Publish Configuration
