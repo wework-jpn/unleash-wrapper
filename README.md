@@ -10,8 +10,8 @@ This Laravel package provides an easy-to-use integration with [Unleash](https://
 
 ## Requirements
 
-- PHP >= 8.1
-- Laravel >= 10.10
+- PHP >= 7.4
+- Laravel >= 8.4
 
 ## Installation
 
