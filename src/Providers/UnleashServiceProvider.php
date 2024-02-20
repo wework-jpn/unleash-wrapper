@@ -29,7 +29,7 @@ class UnleashServiceProvider extends ServiceProvider
     public function boot(): void
     {
         $this->publishes([
-            __DIR__.'/../config/unleash.php' => config_path('unleash.php'),
+            __DIR__ . '/../../config/unleash.php' => config_path('unleash.php'),
         ], 'config');
     }
 }
