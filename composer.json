@@ -50,7 +50,12 @@
     },
     "extra": {
         "laravel": {
-            "dont-discover": []
+            "providers": [
+                "UnleashWrapper\\Providers\\UnleashServiceProvider"
+            ],
+            "aliases": {
+                "Unleash": "UnleashWrapper\\Facades\\Unleash"
+            }
         }
     },
     "config": {
