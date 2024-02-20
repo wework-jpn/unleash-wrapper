@@ -28,7 +28,7 @@ composer require wework/unleash-wrapper:dev-main
 Publish the package configuration file to your Laravel project:
 
 ```bash
-php artisan vendor:publish --provider="Wework\\UnleashWrapper\\UnleashServiceProvider" --tag="config"
+php artisan vendor:publish --tag="unleash-config"
 ```
 
 ### Step 3: Environment Configuration
