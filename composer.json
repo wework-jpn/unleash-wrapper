@@ -51,10 +51,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Wework\\UnleashWrapper\\Providers\\UnleashServiceProvider"
+                "UnleashWrapper\\Providers\\UnleashServiceProvider"
             ],
             "aliases": {
-                "Unleash": "Wework\\UnleashWrapper\\Facades\\Unleash"
+                "Unleash": "UnleashWrapper\\Facades\\Unleash"
             }
         }
     },
